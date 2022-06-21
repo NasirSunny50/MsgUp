@@ -61,10 +61,11 @@
                                     <select name="message" class="form-control" aria-label=" select "  required/>
                                     <option selected disabled>-Select-</option>
                                     <?php while ($message = $fetch_con2->fetch_assoc()): ?>
-                                        <option> <?php echo $message['Message'] ?></option>
+                                        <option><?php echo $message['Message'] ?> </option>
                                     <?php endwhile; ?>
                                     </select>
                                 </div>
+                                
                             </div>
 
                             <div class="row mb-3">
